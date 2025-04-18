@@ -15,9 +15,10 @@ while True:
             if zagadalisp != nadosp:
                for i in range(len(zagadali)):
                   if zagadali[i] == bykvslov:        
-                     zagadalisp[i] = bykvslov:
+                     zagadalisp[i] = bykvslov
             for j in zagadalisp:
-            print(j, end='') 
+                print(j, end='') 
+            if zagadali == nadosp
 
         else:
             if bykvslov == zagadali:
