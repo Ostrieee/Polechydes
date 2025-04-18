@@ -18,7 +18,9 @@ while True:
                      zagadalisp[i] = bykvslov
             for j in zagadalisp:
                 print(j, end='') 
-            if zagadali == nadosp
+            if zagadali == nadosp:
+                print('Всё словво отгадано!')
+
 
         else:
             if bykvslov == zagadali:
