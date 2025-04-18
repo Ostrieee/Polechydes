@@ -1,9 +1,9 @@
-spisok =[]
+spisok =['ножницы', 'бактерия', 'ромашка', 'абрикос', 'чемодан', 'студент', 'дегенерация', 'шестерёнки', 'запятая', 'склонение', 'одушевлённость', 'висилица', 'кувшинка', 'рассвет', 'пингвин']
 zagadali = random.choice(spisok) 
 inputnie = []
 nadosp = []
 nadosp.append(zagadali) 
-zagadalisp = [*] * len(zagadali) 
+zagadalisp = ['*'] * len(zagadali) 
 count = 0
 print('Это игра поле чудес. Начинай отгадать слово') 
 bykvslov = input('Введите букву или слово')
