@@ -10,10 +10,11 @@ bykvslov = input('Введите букву или слово')
 
 while True:
     if len(bykvslov) == 1:
-       for i in range(len(zagadalisp)):
-           if zagadalisp[i] == bykvslov:        
+       for i in range(len(zagadali)):
+           if zagadali[i] == bykvslov:        
                zagadalisp[i] = bykvslov:
-
+       for j in zagadalisp:
+           print(j, end='') 
 
     else:
         if bykvslov == zagadali:
